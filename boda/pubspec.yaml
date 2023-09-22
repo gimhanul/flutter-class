@@ -14,12 +14,23 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   get: ^4.6.6
+  pull_to_refresh: ^2.0.0 # 무한 스크롤 & 리스트 리프레쉬
+  cached_network_image: ^3.2.3 # 이미지 캐시
+  flutter_svg: ^2.0.7 # svg 아이콘
+  image_picker: ^1.0.4 # 디바이스에서 이미지 가져오기
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1 # 앱 아이콘
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+
 flutter:
   uses-material-design: true
 
